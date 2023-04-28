@@ -36,3 +36,25 @@ write (man 2 write)
 0. Betty would be proud
 mandatory
 Write a beautiful code that passes the Betty checks
+
+2. Simple shell 0.2
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Simple shell 0.1 +
+
+Handle command lines with arguments
+
+3. Simple shell 0.3
+Simple shell 0.2 +
+
+Handle the PATH
+fork must not be called if the command doesn’t exist
+
+4. Simple shell 0.4
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Simple shell 0.3 +
+
+Implement the exit built-in, that exits the shell
+Usage: exit
+You don’t have to handle any argument to the built-in exit

@@ -13,9 +13,9 @@
 #include <signal.h>
 #include <fcntl.h>
 
-/********* MACROS ********/
+/********* NACOS ********/
 
-#include "macros.h"
+#include "nacos.h"
 
 /************* STRUCTURES **************/
 
@@ -90,9 +90,9 @@ void expand_alias(data_of_program *data);
 int buffer_add(char *buffer, char *str_to_add);
 
 
-/*======== str_tok.c ========*/
+/*======== strng_tok.c ========*/
 
-/* it separate the string in tokens with the use of delimiter */
+/* this function separate the string in tokens with the use of delimiter */
 void tokenize(data_of_program *data);
 
 /* it creates a pointer to part of string */
